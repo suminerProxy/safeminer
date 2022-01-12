@@ -8,7 +8,7 @@
 
 ```
 
-如需服务器抽水软件，可查看我的另一软件[]前开发费为全网坐地：0.2%
+如需服务器抽水软件，可查看我的另一软件[https://github.com/suminerProxy/suminerProxy]     开发费为全网最低：0.2%
 # windows安装
 
 
