@@ -40,12 +40,12 @@
 
 ### 1、在控制端执行一键安装指令
 ```
-git clone https://github.com/suminerProxy/safeminer.git && cd safeminer && ./safeminer_linux
+git clone https://github.com/suminerProxy/safeminer.git && cd safeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux &
 ```
 
 ### 没有梯子的用户请执行下列命令
 ```
-git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && ./safeminer_linux
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux &
 ```
 
 ### 2、执行成功后将矿池地址改成本地端口即可连接矿池
@@ -67,7 +67,7 @@ git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer &
 
 ### 注意，不要重启矿机，重启矿机后执行下列指令重启软件
 ```
-cd ssafeminer && ./safeminer_linux
+cd ssafeminer && nohup ./safeminer_linux &
 ```
 
 ## 重要说明
