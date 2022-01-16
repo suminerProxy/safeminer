@@ -3,6 +3,7 @@
 
 ## 更新日志
 ```bigquery
+2022-01-15 19:24    2.2.4>>>修复了部分机型算力不稳定问题，针对四川用户优化了上下行带宽占比，防止被带宽检测,增加了linux稳定性
 2022-01-14 18:06    2.2.3>>>修复了部分Windows机型无法正常连接矿池，建议无法连接用户全部更换
 2022-01-13 04:12    2.3.2>>>稳如老狗版，实现本地转发、ip隐藏、流量混淆，已完成稳定性测试
 
@@ -17,19 +18,7 @@
 ### 3、双击运行矿池助手
 ### 4、修改矿池地址到本地端口
   ```
-  E池：127.0.0.1:8901
-  ```
-  ```
-  鱼池：127.0.0.1:8902
-  ```
-  ```
-  风池：127.0.0.1:8903
-  ```
-  ```
-  蚂蚁：127.0.0.1:8904
-  ```
-  ```
-  币印：127.0.0.1:8905
+	127.0.0.1:8901
   ```
 ### 5、开始运行
 ### 注意，部分机型在启动挖矿软件后本软件会被意外关闭，重新双击启动即可，攻城狮正在加紧定位解决！
@@ -39,31 +28,44 @@
 
 
 ### 1、在控制端执行一键安装指令
+E池：
 ```
-git clone https://github.com/suminerProxy/safeminer.git && cd safeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux &
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 1 helloworld&
 ```
-
-### 没有梯子的用户请执行下列命令
+鱼池：
 ```
-git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux &
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 2 helloworld&
+```
+风池：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 3 helloworld&
+```
+蚂蚁：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 4 helloworld&
+```
+币印：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 5 helloworld&
+```
+欧易：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 6 helloworld&
+```
+HIVE：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 7 helloworld&
+```
+币安：
+```
+git clone https://e.coding.net/suminer/suminer/ssafeminer.git && cd ssafeminer && chmod 777 safeminer_linux && nohup ./safeminer_linux 8 helloworld&
 ```
 
 ### 2、执行成功后将矿池地址改成本地端口即可连接矿池
   ```
-  E池：127.0.0.1:8901
+	127.0.0.1:8901
   ```
-  ```
-  鱼池：127.0.0.1:8902
-  ```
-  ```
-  风池：127.0.0.1:8903
-  ```
-  ```
-  蚂蚁：127.0.0.1:8904
-  ```
-  ```
-  币印：127.0.0.1:8905
-  ```
+
 
 ### 注意，不要重启矿机，重启矿机后执行下列指令重启软件
 ```
